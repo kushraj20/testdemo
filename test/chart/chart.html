@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <!-- build:css contact.css -->
+
+<!-- cxp global styles -->
+
+    <link rel="stylesheet" href="../../bower_components/fontawesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="../../bower_components/fontawesome/fonts"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/css/test.css"/>
+
+<!-- endbuild -->
+
+</head>
+
+<body>
+
+   <div id="chart"   style="overflow:hidden;" >
+       <chart-header></chart-header>
+       <chart-read></chart-read>
+       <chart-footer></chart-footer>
+
+    </div>
+
+   <!-- build:js chart.js  -->
+   <!-- cxp global scripts -->
+   <script type="text/javascript" src="../../bower_components/jquery/dist/jquery.js"></script>
+   <script type="text/javascript" src="../../bower_components/angular/angular.js"></script>
+   <script type="text/javascript" src="http://static.fusioncharts.com/code/latest/fusioncharts.js"></script>
+   <script type="text/javascript" src="http://static.fusioncharts.com/code/latest/themes/fusioncharts.theme.ocean.js"></script>
+
+   <script type="text/javascript" src="../../bower_components/angular-fusioncharts/dist/angular-fusioncharts.js"></script>
+    <!-- API Data -->
+
+    <script type="text/javascript" src="../chart/chart-modules.js"></script>
+    <script type="text/javascript" src="../chart/services/client/chart-httpService.js"></script>
+   <script type="text/javascript" src="section/footer/chart-section-footer-directive.js"></script>
+   <script type="text/javascript" src="section/footer/chart-section-footer-controller.js"></script>
+   <script type="text/javascript" src="section/header/chart-section-header-directive.js"></script>
+   <script type="text/javascript" src="section/header/chart-section-header-controller.js"></script>
+    <script type="text/javascript" src="component/read/chart-component-read-directive.js"></script>
+    <script type="text/javascript" src="component/read/chart-component-read-controller.js"></script>
+
+
+  <!-- endbuild -->
+
+
+</body>

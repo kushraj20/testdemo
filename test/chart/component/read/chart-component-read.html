@@ -1,0 +1,20 @@
+<div class="main">
+
+<div class="container">
+    <div class="row" ng-init="readCtrl.loadChartData()">
+          <div class="col-md-3"></div>
+           <div class="col-md-9">
+
+               <div>
+                   <div fusioncharts
+                        width="600"
+                        height="400"
+                        type="column2d"
+                        dataSource="{{readCtrl.myDataSource}}" >
+                   </div>
+               </div>
+           </div>
+    </div>
+</div>
+
+</div>

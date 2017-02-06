@@ -1,0 +1,22 @@
+{
+  "name": "bowertest",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.9",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.3",
+    "angular-bootstrap": "0.14.2",
+    "angular-ui-router": "0.2.15",
+    "bootstrap": "3.3.5",
+    "jquery": "2.1.4",
+    "fontawesome": "4.4.0",
+    "angular-animate": "1.4.3",
+    "angular-fusioncharts" : "",
+    "fusioncharts" : ""
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.3"
+  }
+}
